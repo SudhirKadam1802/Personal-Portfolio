@@ -21,7 +21,7 @@ import imgLogo from "./assets/education_logo/img_logo.png";
 // Project Section Logo's
 import civicLogo from './assets/work_logo/civic.png';
 import weatherLogo from './assets/work_logo/weather.png';
-import passwordGenerator from './assets/work_logo/Password_generator.png';
+import passwordGenerator from './assets/work_logo/Password_Generator.png';
 import modalLogo from './assets/work_logo/modal.png';
 import counterLogo from './assets/work_logo/counter.png';
 
