@@ -85,7 +85,7 @@ export const SkillsInfo = [
   img: null,
   school: "Bharat Bharati Junior College, Parbhani, Maharashtra",
   date: "Apr 2020 - May 2021",
-  grade: "95.33", 
+  grade: "95.33%", 
   desc: "I completed my Higher Secondary Certificate (HSC) from Bharat Bharati Junior College, Parbhani, Maharashtra, where I studied Physics, Chemistry, and Mathematics (PCM).",
   degree: "Higher Secondary Certificate(XII) - PCM"
     },
