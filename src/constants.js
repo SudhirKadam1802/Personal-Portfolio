@@ -25,8 +25,8 @@ import imgLogo from "./assets/education_logo/img_logo.png";
 import civicLogo from './assets/work_logo/civic.png';
 import JobLogo from './assets/work_logo/JobPortal.png';
 import CartLogo from './assets/work_logo/CartAvenue.png';
-import weatherLogo from './assets/work_logo/weather.png';
-import passwordGenerator from './assets/work_logo/Password_Generator.png';
+// import weatherLogo from './assets/work_logo/weather.png';
+// import passwordGenerator from './assets/work_logo/Password_Generator.png';
 
 
 
@@ -157,22 +157,22 @@ export const SkillsInfo = [
     github: "https://github.com/SudhirKadam1802/Online-Shopping-Application",
     webapp: "https://online-shopping-frontend-eesx.onrender.com/",
   },
-{
-   id: 3,
-  title: "Weather App",
-  description:
-    "A responsive weather application that provides real-time weather updates for any city using API integration. It displays temperature, humidity, wind speed, and weather conditions with a clean and user-friendly interface. Built using React.js and external weather APIs to deliver accurate and dynamic data.",
-  image: weatherLogo,
-  tags: ["API", "HTML", "CSS", "JavaScript"],
-  github: "https://github.com/SudhirKadam1802/DOM-Weather-App",
-    },
-  {
-  id: 4,
-  title: "Password Generator",
-  description:
-    "A JavaScript-based password generator that dynamically creates strong and secure passwords using DOM manipulation. Users can customize password length and include uppercase, lowercase, numbers, and special characters. The application updates the UI in real-time, providing an interactive and user-friendly experience.",
-  image: passwordGenerator,
-  tags: ["HTML", "CSS", "JavaScript"],
-  github: "https://github.com/SudhirKadam1802/Password-Generator-using--js",
-},
+// {
+//    id: 3,
+//   title: "Weather App",
+//   description:
+//     "A responsive weather application that provides real-time weather updates for any city using API integration. It displays temperature, humidity, wind speed, and weather conditions with a clean and user-friendly interface. Built using React.js and external weather APIs to deliver accurate and dynamic data.",
+//   image: weatherLogo,
+//   tags: ["API", "HTML", "CSS", "JavaScript"],
+//   github: "https://github.com/SudhirKadam1802/DOM-Weather-App",
+//     },
+//   {
+//   id: 4,
+//   title: "Password Generator",
+//   description:
+//     "A JavaScript-based password generator that dynamically creates strong and secure passwords using DOM manipulation. Users can customize password length and include uppercase, lowercase, numbers, and special characters. The application updates the UI in real-time, providing an interactive and user-friendly experience.",
+//   image: passwordGenerator,
+//   tags: ["HTML", "CSS", "JavaScript"],
+//   github: "https://github.com/SudhirKadam1802/Password-Generator-using--js",
+// },
   ];  
