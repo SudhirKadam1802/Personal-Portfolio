@@ -7,7 +7,8 @@ import reduxLogo from './assets/tech_logo/redux.png';
 import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
 import nodejsLogo from './assets/tech_logo/nodejs.png';
 import expressjsLogo from './assets/tech_logo/express.png';
-import mysqlLogo from './assets/tech_logo/mysql.png';
+// import mysqlLogo from './assets/tech_logo/mysql.png';
+import sqlLogo from './assets/tech_logo/Ssms.png';
 import mongodbLogo from './assets/tech_logo/mongodb.png';
 import cSharpLogo from './assets/tech_logo/csharp.png';
 // import javaLogo from './assets/tech_logo/java.png';
@@ -16,15 +17,16 @@ import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
 import postmanLogo from './assets/tech_logo/postman.png';
 import mcLogo from './assets/tech_logo/mc.png';
-import netlifyLogo from './assets/tech_logo/netlify.png';
+// import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import imgLogo from "./assets/education_logo/img_logo.png";
 // Project Section Logo's
 import civicLogo from './assets/work_logo/civic.png';
+import JobLogo from './assets/work_logo/JobPortal.png';
+import CartLogo from './assets/work_logo/CartAvenue.png';
 import weatherLogo from './assets/work_logo/weather.png';
 import passwordGenerator from './assets/work_logo/Password_Generator.png';
-import modalLogo from './assets/work_logo/modal.png';
-import counterLogo from './assets/work_logo/counter.png';
+
 
 
 
@@ -46,7 +48,8 @@ export const SkillsInfo = [
     skills: [
       { name: 'Node JS', logo: nodejsLogo },
       { name: 'Express JS', logo: expressjsLogo },
-      { name: 'MySQL', logo: mysqlLogo },
+      // { name: 'MySQL', logo: mysqlLogo },
+      {name: 'SQLServer', logo: sqlLogo},
       { name: 'MongoDB', logo: mongodbLogo },
     ],
   },
@@ -67,7 +70,7 @@ export const SkillsInfo = [
       { name: 'Postman', logo: postmanLogo },
       { name: 'Compass', logo: mcLogo },
       { name: 'Vercel', logo: vercelLogo },
-      { name: 'Netlify', logo: netlifyLogo },
+      // { name: 'Netlify', logo: netlifyLogo },
     ],
   },
 ];
@@ -92,7 +95,7 @@ export const SkillsInfo = [
   degree: "Higher Secondary Certificate(XII) - PCM"
     },
     {
-      id: 2,
+    id: 2,
   img: null,
   school: "Gandhi Vidyalaya, Parbhani, Maharashtra",
   date: "Apr 2018 - June 2019",
@@ -113,8 +116,47 @@ export const SkillsInfo = [
   github: "https://github.com/SudhirKadam1802/civic-pulse-Project",
   webapp: "https://civic-pulse-sage.vercel.app/",
     },
-    {
-      id: 1,
+ {
+    id: 1,
+    title: "CareerAI - AI Powered Job Portal",
+    description:
+      "Developed a full-stack AI-powered Job Portal that connects candidates and recruiters through an intelligent recruitment platform. Features include user authentication, role-based authorization, job management, resume upload and AI-powered resume analysis. Built using Clean Architecture principles to ensure scalability, maintainability, and efficient backend development.",
+    tags: [
+      "Angular",
+      "ASP.NET Core Web API",
+      "C#",
+      "SQL Server",
+      "Entity Framework Core",
+      "Clean Architecture",
+      "JWT Authentication",
+      "REST API",
+      "AI Integration"
+    ],
+    image: JobLogo,
+    github: "https://github.com/SudhirKadam1802/JobPortalAI",
+    webapp: "https://careerai-frontend-jdr3.onrender.com",
+  },
+  {
+    id: 2,
+    title: "Online Shopping Application",
+    description:
+      "Developed a full-stack E-commerce application that provides a seamless online shopping experience. Implemented product browsing, shopping cart management, user authentication, order processing, and dynamic discount calculations. Built RESTful APIs using ASP.NET Core Web API and integrated them with a responsive React frontend, using Entity Framework Core and PostgreSQL for database management.",
+    tags: [
+      "React.js",
+      "JavaScript",
+      "ASP.NET Core Web API",
+      "C#",
+      "Entity Framework Core",
+      "PostgreSQL",
+      "REST API",
+      "JWT Authentication"
+    ],
+    image: CartLogo,
+    github: "https://github.com/SudhirKadam1802/Online-Shopping-Application",
+    webapp: "https://online-shopping-frontend-eesx.onrender.com/",
+  },
+{
+   id: 3,
   title: "Weather App",
   description:
     "A responsive weather application that provides real-time weather updates for any city using API integration. It displays temperature, humidity, wind speed, and weather conditions with a clean and user-friendly interface. Built using React.js and external weather APIs to deliver accurate and dynamic data.",
@@ -123,7 +165,7 @@ export const SkillsInfo = [
   github: "https://github.com/SudhirKadam1802/DOM-Weather-App",
     },
   {
-  id: 2,
+  id: 4,
   title: "Password Generator",
   description:
     "A JavaScript-based password generator that dynamically creates strong and secure passwords using DOM manipulation. Users can customize password length and include uppercase, lowercase, numbers, and special characters. The application updates the UI in real-time, providing an interactive and user-friendly experience.",
@@ -131,22 +173,4 @@ export const SkillsInfo = [
   tags: ["HTML", "CSS", "JavaScript"],
   github: "https://github.com/SudhirKadam1802/Password-Generator-using--js",
 },
-    {
-      id: 3,
-  title: "Modal Profile",
-  description:
-    "A JavaScript-based modal profile component built using DOM manipulation. It displays user profile details in a popup modal with smooth open and close interactions. Implemented using HTML, CSS, and JavaScript with event handling for an interactive user experience.",
-  image: modalLogo, 
-  tags: ["HTML", "CSS", "JavaScript"],
-  github: "https://github.com/SudhirKadam1802/Modal-Project-Using-JS-",
-    },
-    {
-     id: 4,
-  title: "Counter App",
-  description:
-    "A simple and interactive counter application built using JavaScript DOM manipulation. It allows users to increment, decrement, and reset the counter value in real-time. Designed with a clean UI and responsive controls to demonstrate event handling and dynamic updates.",
-  image: counterLogo, 
-  tags: ["HTML", "CSS", "JavaScript"],
-  github: "https://github.com/SudhirKadam1802/counter-Project-Using-JS-",
-    },
   ];  

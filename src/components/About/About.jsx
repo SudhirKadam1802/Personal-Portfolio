@@ -28,7 +28,7 @@ const About = () => {
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec]">
             <span className="text-white">I am a </span>
             <ReactTypingEffect
-              text={['MERN Stack Developer']}
+              text={['Full Stack Developer']}
               speed={100}
               eraseSpeed={50}
               typingDelay={400}
@@ -41,7 +41,8 @@ const About = () => {
 
           {/* About */}
           <p className="text-base sm:text-lg text-gray-400 mb-8 mt-6 leading-relaxed max-w-xl mx-auto md:mx-0">
-            I am a passionate full-stack developer, having completed my Bachelor of Engineering (B.E.) in 2025 from JSPM’s Bhivarabai Sawant Institute of Technology & Research, Wagholi, Pune. I specialize in the MERN stack and have hands-on experience building modern web applications using MongoDB, Express.js, React, and Node.js. I focus on developing strong problem-solving skills and creating efficient, user-friendly solutions using the latest web technologies.
+         I am a passionate Full-Stack Developer who enjoys creating modern, responsive, and user-friendly web applications.
+         I have experience working with ASP.NET Core, C#, JavaScript, React.js, Angular, Node.js, Express.js, MongoDB, and SQL Server. I am passionate about problem-solving, exploring new technologies, and continuously improving my development skills to build meaningful digital experiences.
           </p>
 
           {/* Button */}
