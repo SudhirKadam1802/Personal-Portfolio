@@ -138,7 +138,7 @@ export const SkillsInfo = [
   },
   {
     id: 2,
-    title: "Online Shopping Application",
+    title: "Cart Avenue - Online Shopping Application",
     description:
       "Developed a full-stack E-commerce application that provides a seamless online shopping experience. Implemented product browsing, shopping cart management, user authentication, order processing, and dynamic discount calculations. Built RESTful APIs using ASP.NET Core Web API and integrated them with a responsive React frontend, using Entity Framework Core and PostgreSQL for database management.",
     tags: [
