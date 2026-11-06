@@ -15,8 +15,9 @@ import cSharpLogo from './assets/tech_logo/csharp.png';
 import gitLogo from './assets/tech_logo/git.png';
 import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
+import visualstudioLogo from './assets/tech_logo/VisualStudio.png';
 import postmanLogo from './assets/tech_logo/postman.png';
-import mcLogo from './assets/tech_logo/mc.png';
+// import mcLogo from './assets/tech_logo/mc.png';
 // import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import imgLogo from "./assets/education_logo/img_logo.png";
@@ -67,8 +68,9 @@ export const SkillsInfo = [
       { name: 'Git', logo: gitLogo },
       { name: 'GitHub', logo: githubLogo },
       { name: 'VS Code', logo: vscodeLogo },
+       {name: 'Visual Studio', logo: visualstudioLogo},
       { name: 'Postman', logo: postmanLogo },
-      { name: 'Compass', logo: mcLogo },
+      // { name: 'Compass', logo: mcLogo },
       { name: 'Vercel', logo: vercelLogo },
       // { name: 'Netlify', logo: netlifyLogo },
     ],
